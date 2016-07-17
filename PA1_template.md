@@ -14,15 +14,6 @@ First we will read in the csv into a dataframe called activity.
 activity <- read.csv("activity.csv",header=T)
 ```
 
-```
-## Warning in file(file, "rt"): cannot open file 'activity.csv': No such file
-## or directory
-```
-
-```
-## Error in file(file, "rt"): cannot open the connection
-```
-
 ## What is mean total number of steps taken per day?
 
 Next, we will use the ddply function from the plyr package to find the total number of steps taken each day. Then we will find the mean and median of that.
